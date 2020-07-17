@@ -1,0 +1,169 @@
+/* footer.css */
+
+#footBox{
+	width: 100%; height: auto;
+	background-color: #fff;
+	color: #696969;
+
+}
+
+.foot_area{
+	position: relative;
+	width: 100%; height: 100%;
+	max-width: 1024px;
+	margin: auto;
+	padding-bottom:50px;
+}
+
+.family_box{
+	position: relative;
+	width: 100%; height: 80px;
+	padding: 20px 10px; box-sizing: border-box;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+.family_area{
+	position: absolute;
+	top: 50%; left:0; transform: translate(0, -50%);
+	width: 60%; height: 50%;
+	border: 2px solid #cfcfcf;
+	border-radius: 2rem;
+	padding: 5px; box-sizing: border-box;
+}
+
+dl,dt{
+	width: 100%; height: 100%;
+}
+
+dt>button{
+	width: 100%; height: 100%;
+	text-align: left;
+	text-indent: 1rem;
+	color:#333;
+}
+
+
+dd{
+	display: none;
+	width: 100%; height: 130%;
+}
+
+dd>a{
+	display: block;
+	width: 100%; height: 100%;
+	background-color: #fff;
+	text-align: left;
+	text-indent: 1rem;
+	line-height: 2rem;
+	border:1px solid #cfcfcf;
+	border-top: 0;
+	box-sizing: border-box;
+}
+
+.family_area i {
+	float: right;
+}
+
+.f_menu{
+	width: 100%; height: auto;
+	padding:20px 10px; box-sizing: border-box;
+}
+
+.f_menu ul{
+	width: 100%; height: auto;
+}
+
+
+
+.f_menu li a{
+	display: block;
+	width: 100%; height: 100%;
+}
+
+.sns{
+	width: 50%; max-width: 280px;
+	height: auto;
+	font-size: 2.5rem;
+	padding: 50px 10px 0 10px; box-sizing: border-box;
+}
+
+.sns ul{
+	width: 100%; height: 100%;
+}
+
+.sns li{
+	width: 25%;
+	float: left;
+}
+
+
+.com_info{
+	width: 100%; height: auto;
+	padding-top:10px; box-sizing: border-box;
+	color: #999;
+}
+
+.info_box{
+	float: left;
+}
+
+
+
+.top_btn{
+	display: block;
+	position: absolute; bottom: 30px; right:20px;
+	width: auto; height: auto;
+}
+
+.top_btn i {
+	font-size: 3rem;
+	color: #696969;
+}
+
+@media screen and (max-width: 1023px){
+
+	.f_menu li{
+		width: 100%; height: auto; 
+		font-size: 1.3rem;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	
+	.sns{
+		padding: 20px 10px 0 10px; box-sizing: border-box;
+	}
+
+	.info_box{
+		padding: 0 10px; box-sizing: border-box;
+	}
+
+}
+
+
+@media screen and (min-width: 1024px){
+
+	.f_menu li{
+		float: left;
+		width: 20%; text-align: center;
+		font-weight: bold; font-size: 1.1rem;
+		border-right: 1px solid #cfcfcf; box-sizing: border-box;
+	}
+	
+	.f_menu li:last-child{
+		border-right: 0;
+	}
+
+	.info_box p{
+		float: left;
+		border-right: 1px solid #cfcfcf;
+		padding:0 5px; box-sizing: border-box;
+	}
+	.info_box p:last-child{
+		border-right: 0;
+	}
+
+
+}
+
+/* 푸터 영역 */

@@ -1,0 +1,15 @@
+/* main.css */
+/* 메인페이지  */
+@import url('./main/wrap.css');
+
+@import url('./header.css');
+
+@import url('./main/viewBox.css');
+@import url('./main/conBox.css');
+@import url('./main/brandBox.css');
+@import url('./main/infoBox.css');
+@import url('./main/storyBox.css');
+@import url('./main/recruitBox.css');
+@import url('./main/serviceBox.css');
+
+@import url('./footer.css');

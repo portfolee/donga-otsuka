@@ -1,0 +1,125 @@
+/* 제품 소개 페이지 */
+/* conBox.css */
+
+#conBox{
+	margin: 120px auto 0;
+	overflow: hidden;
+}
+
+.product{
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.list{
+	position: relative;
+	width: 1024px;
+	height: 400px;
+	margin:30px auto;
+	background-color: #e1faff;
+}
+
+.list:before{
+	content: ''; display: block;
+	width: 100vw;
+	height: auto;
+	background-color: #cfcfcf;
+}
+
+.list:nth-child(2n-1){
+	border-top-right-radius:15rem ;
+	border-bottom-right-radius:15rem;
+}
+
+.list:nth-child(2n){
+	border-top-left-radius:15rem ;
+	border-bottom-left-radius:15rem;
+}
+
+.list:nth-child(2n-1):before{
+	position: absolute; right:50%; z-index: -1;
+	width: 100vw; height: 100%;
+	background-color: #e1faff;
+}
+
+.list:nth-child(2n):before{
+	position: absolute; left:50%; z-index: -1;
+	width: 100vw; height: 100%;
+	background-color: #e1faff;
+}
+
+
+.text_area{
+	width: 50%; height: 100%;
+	padding: 100px; box-sizing: border-box;
+}
+
+.list:nth-child(2n) .text_area{
+	float: right;
+}
+
+.text_area h3{
+	font-size: 3rem;
+}
+
+.text_area p{
+	font-size: 1.5rem;
+	margin:20px 0 30px 0;
+}
+
+.text_area a{
+	display: block; float: right;
+	width: 120px; height: 50px;
+	padding: 0.7rem 0.8rem;
+	border: 1px solid #333; 
+	border-radius: 2rem;
+	box-sizing: border-box;
+	font-size: 1.2rem;
+}
+
+.con_img{
+	float: right; text-align: center;
+	width: 50%; height: 100%; 
+	padding-top: 40px; box-sizing: border-box;
+	overflow: hidden;
+}
+
+.list:nth-child(2n-1) .con_img{
+	border-top-right-radius:15rem ;
+	border-bottom-right-radius:15rem;
+}
+
+.list:nth-child(2n) .con_img{
+	float: left;
+	border-top-left-radius:15rem ;
+	border-bottom-left-radius:15rem;
+}
+
+.pocari img{
+	width: 400px;
+}
+
+.oranC img{
+	width: 500px;
+}
+
+
+.pocari:hover, .pocari:hover:before{
+	background-color: #214EB6;
+	color:#fff;
+}
+
+.oronamin:hover, .oronamin:hover:before{
+	background-color: #BC272A;
+	color: #fff;
+}
+
+.oranC:hover, .oranC:hover:before{
+	background-color: #2F7E4B;
+	color: #fff;
+}
+
+
+.list:hover .text_area a{border: 1px solid #fff;}
+

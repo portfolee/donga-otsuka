@@ -1,0 +1,121 @@
+/* storyBox.css */
+/* 오츠카 스토리 소개 영역 */
+
+#storyBox{
+	width: 100%; height: auto; 
+	background-color: #053671;
+	padding-top: 160px; box-sizing: border-box;
+	background-image: url('../../../img/main/story_bg.png');
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: cover;
+
+}
+
+.story_area{
+	position: relative;
+	width: 100%; max-width: 1024px;
+	height:auto; 
+	background-color: #fff;
+	margin:auto;
+	padding: 0 20px 60px 20px; box-sizing: border-box;
+}
+
+.story_area:before{
+	content: " ";
+	width: 100%; height: auto;
+	background-color: #fff;
+}
+
+.story_area p{
+	position: absolute; top: -2.5rem; right: 0;
+	font-size: 2rem;
+	text-align: right;
+	color: #fff;
+	word-break: keep-all;
+	font-weight: 700;
+}
+
+.story_area h3{
+	font-style: normal;
+	font-size: 4rem; font-size: 20vw;
+	font-weight: bold;
+	color: #00a0c2;
+	text-transform: uppercase;
+}
+
+.story_area h4{
+	display: inline-block;
+	width: 100%; height: auto;
+	border-bottom: 2px solid #696969;
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	margin-top:30px;
+}
+
+.story_area >div >div{
+	margin-top:30px; 
+}
+
+.health{
+	width: 100%; height: auto;
+}
+
+.health>div{
+	width: 140px; height: 100px;
+	width: 43.75vw; height: 31.25vw;
+	background-color: #333;
+}
+
+.health_01{
+	float: left;
+	background-image: url('../../../img/main/healthstory_01.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.health_02{
+	float: right;
+	background-image: url('../../../img/main/healthstory_02.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.health a{
+	display: block;
+	width: 100%; height: 100%;
+}
+
+.blue{
+	width: 100%; height: auto;
+}
+
+.blue>div{
+	width: 100%; height: 130px; height: 40.625vw; max-height: 400px;
+	background-image: url('../../../img/main/bluestory_01.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.blue a{
+	display: block;
+	width: 100%; height: 100%;
+}
+
+
+@media screen and (min-width: 640px){
+	.story_area h3{
+		font-size: 7.975rem;
+	}
+}
+
+@media screen and (min-width: 1024px){
+
+	.health>div{
+		width: 463px; height: 300px;
+		background-color: #333;
+	}
+
+}

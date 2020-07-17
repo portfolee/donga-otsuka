@@ -1,0 +1,68 @@
+/* 제품 소개 페이지 */
+/* viewBox */
+
+#viewBox{
+	position: relative;
+	padding-top: 50px;
+	width: 100%; height: 300px;
+	background-color: #333;
+	background-image: url('../../../img/banner/drink.jpg');
+	background-repeat: no-repeat;
+	background-size: center;
+	background-position: 50% 40%;
+}
+
+#viewBox:after {
+	content: ""; z-index: 6;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.3);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;}
+
+.view_area{
+	width: 100%; height: 100%;
+}
+
+#viewBox p{
+	position: absolute; z-index: 10;
+	top: 60%; left: 50%; transform: translate(-50%, -60%);
+	color:#fff; text-align: center;
+	font-size: 3rem; font-weight: 900;
+}
+
+.sub_menu_box{
+	position: absolute; z-index: 10;
+	bottom: 0; left: 0;
+	width: 100%; height: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sub_menu_box ul{
+	width: 100%; max-width: 1024px;
+	height: 100%;
+	margin: auto;
+}
+
+.sub_menu_box li{
+	padding: 15px 0; box-sizing: border-box;
+	width: 33.333333%; float: left;
+	text-align: center; text-transform: capitalize;
+	color:#fff;
+}
+
+.sub_menu_box li.action{
+	font-weight: bold;
+	color:#00a0c2;
+}
+@media screen and (min-width: 1024px){
+	#viewBox{
+		padding-top: 100px;
+		height: 300px;
+	}
+
+	.sub_view_area p{
+		font-size: 4rem;
+	}
+}

@@ -1,0 +1,11 @@
+/* community.css */
+/* 홍보자료 페이지 */
+
+@import url('./community/wrap.css');
+
+@import url('./header.css');
+
+@import url('./community/viewBox.css');
+@import url('./community/conBox.css');
+
+@import url('./footer.css');

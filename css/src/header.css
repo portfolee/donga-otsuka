@@ -1,0 +1,173 @@
+/* header.css */
+/* 헤더 영역 */
+#headBox{
+	position: fixed; z-index: 1000; 
+	width: 100%; height:auto; height:9.375vw;
+	min-height: 60px; 
+	max-height: 100px;
+	padding: 10px; 
+	padding: 1.5625vw; 
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+.header_area{
+	width: 100%; max-width: 1024px;
+	height: 100%;
+	margin:auto;
+}
+
+h1{
+	width: 150px; height: 100%;
+	margin: auto;
+	background-image: url('../../img/logo.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: contain;
+}
+
+h1 a{
+	display: block;
+	width: 100%; height: 100%;
+}
+
+
+
+@media screen and (max-width: 1023px){
+	.navBox{display: none;}
+
+	.header_area{
+		padding:7px 10px 0 10px; 
+		padding:1.0938vw 1.5625vw 0 1.5625vw; 
+		box-sizing: border-box;
+	}
+
+	h1{
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		margin: auto;
+	}
+
+	.mob {
+		font-size: 2rem;
+
+		height: auto;
+	}
+
+	.unb_btn{
+		float: left; 
+	
+	}
+
+	.gnb_btn{
+		float: right;
+		margin-right: 5px;
+	}
+
+	.mob a{
+		display: block;
+		width: 100%; height: 100%;
+	}
+
+	.mob a.action{
+		color: #00a0c2;
+	}
+}
+
+
+
+@media screen and (min-width: 1024px){
+	.mob{display: none;}
+	#headBox{
+		position: fixed; z-index: 1000;
+		width: 100%; height: 100px;
+		background-color: #fff;
+		padding: 10px; box-sizing: border-box;
+		box-shadow: 1px 1px 5px 1px rgba(153, 153, 153,0.3);
+	}
+
+	h1{
+		float: left;
+	}
+
+	.navBox{
+		float: right;
+		width: 80%; height: 100%;
+	}
+
+	.gnb_area{
+		float: left;
+		width: 80%; height: 100%;
+		padding:28px 0; box-sizing: border-box;
+	}
+
+	.gnb_area >ul{
+		width: 100%; height: 100%;
+	}
+
+	.gnb_area >ul >li{
+		float: left;
+		width: 20%; box-sizing: border-box;
+		font-size: 1.2rem;
+	}
+	.gnb_area >ul >li >a{
+		display: block;
+		width: 100%; height: 100%;
+		text-align: center;
+	}
+
+	.gnb_area >ul >li.action{
+		font-weight: 700;
+		color: #00a0c2
+	}
+
+	.sub_menu{
+		width: 100%; height:230px;
+		margin-top: 39px; padding-top: 0.5rem;
+		font-size: 1rem;
+		background-color: #00a0c2;
+		display: none;
+	}
+
+	.sub_menu >li{
+		width: 100%; height: 20px;
+		padding: 0.5rem 0; color: #fff;
+		font-weight: bold;
+	}
+	.sub_menu >li>a{
+	 display: block;
+	 width: 100%; height: 100%;
+	 text-align: center;
+	 text-transform: capitalize;
+	}
+
+	.sub_menu >li.action{
+		background-color: #fff;
+		color:#053671;
+	}
+
+
+
+
+	.unb_area{
+		float: right;
+		width: 20%; height: 100%;
+		padding-top: 32px; box-sizing: border-box;
+	}
+
+	.unb_area > ul{
+		width: 100%; height: 100%;
+	}
+
+	.unb_area >ul >li{
+		float: left;
+		width: 50%; box-sizing: border-box;
+	}
+
+	.unb_area >ul >li>a{
+		display: block;
+		width: 100%; height: 100%;
+		text-align: center;
+		color:#696969;
+	}
+}

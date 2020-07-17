@@ -1,0 +1,188 @@
+/* brandBox.css */
+/* 제품소개영역 */
+
+#brandBox{
+	position: relative;
+	width: 100%; height:auto;
+	background-image: linear-gradient(#91BACE, #D2C7C3);	
+	padding: 100px 10px; 
+	box-sizing: border-box;
+}
+
+.brand_area{
+	position:relative;
+	z-index: 2;
+	width: 100%; height: auto;
+	margin: auto;
+
+}
+
+.brand_text{
+	width:100%; height: auto;
+}
+
+.brand_text p{
+	font-size: 2rem;
+	text-align: left;
+	color: #fff;
+	word-break: keep-all;
+	font-weight: 700;
+}
+
+.brand_text h3{
+	font-style: normal;
+	font-size: 4rem; font-size: 20vw;
+	text-align: right;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+
+.brand_content{
+	width: 100%; height: 100%;
+	min-height: 300px;
+	max-height: 500px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.brand_container{width: 400%; height: 100%; }
+
+.brand{
+	float: left;
+	width: 25%; height: 100%;
+	padding: 50px 30px; box-sizing: border-box;
+}
+
+.brand_content em{
+	display: block;
+	font-style:normal;
+}
+
+.brand_content h4{
+	margin: 10px 0 10px 0;
+	font-size: 2.3rem;
+
+}
+
+.brand_content img{
+	position: absolute; bottom:-30px; right: -20px; z-index: 5;
+	width: 200px;
+}
+
+.brand_content p{
+	font-size: 1rem;
+	color: #696969;
+}
+
+.brand button{
+	margin-top: 20px;
+	width: 100px; height: 40px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 50px;
+}
+.brand button:hover,
+.brand button:focus{
+	font-weight: 700;
+	background-color: #00a0c2;
+}
+
+.brand_02 img{display: none;}
+.brand_03 img{display: none;}
+
+
+.brand_bg{
+	position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+	overflow: hidden;  opacity:0.3;
+}
+
+.brand_indi{
+	overflow:hidden; width: 110%; clear:both;
+	position: absolute; z-index: 50;
+	top: 60%; left: -5%;
+}
+
+.brand_indi button{
+	font-size: 4rem;
+	color: #00a0c2;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+.next {
+  float: right;
+}
+
+.prev{
+	float: left;
+}
+@media screen and (min-width: 640px){
+	.brand_area{
+		width: 100%; max-width: 640px;
+		height: auto;
+		margin: auto;
+	}
+	
+	.brand_text h3{
+		font-size: 7.975rem;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.brand_area{
+		position: relative;
+		width: 100%; max-width: 1024px;
+		height: auto;
+		margin: auto;
+	}
+	
+
+
+	
+	.brand_content{
+		width: 100%; height: 100%;
+		min-height: 300px;
+		max-height: 500px;
+		background-color: #fff;
+		overflow: hidden;
+	}
+	
+	.brand_content em{
+		display: block;
+		font-style:normal;
+		font-size: 2rem;
+	}
+	
+	.brand_content h4{
+		margin: 10px 0 10px 0;
+		font-size: 4rem;
+	
+	}
+	
+	.brand_content img{
+		position: absolute; bottom:-50px; right: -20px; z-index: 5;
+		width: 300px;
+	}
+	
+	.brand_content p{
+		font-size: 1.5rem;
+		color: #696969;
+	}
+	
+	.brand button{
+		margin-top: 20px;
+		width: 140px; height:50px;
+		background-color: #333;
+		color: #fff;
+		border-radius: 50px;
+		font-size: 1rem;
+	}
+
+	.brand button:focus{
+		font-weight: 700;
+		background-color: #00a0c2;
+	}
+	
+}

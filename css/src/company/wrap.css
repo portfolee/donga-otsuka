@@ -1,0 +1,6 @@
+/* 회사 소개영역 */
+/* company #wrap */
+#wrap{
+	word-break: keep-all;
+	width: 100%; height: 100%;
+}
